@@ -1,0 +1,67 @@
+.nav{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black ;
+    border-radius: 10px;
+    padding:0 50px;
+    height: 150px;
+    opacity: 80%;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.logos span{
+    font-weight: bold;
+}
+
+.navegacion{
+    display: flex;
+    gap: 30px;
+}
+
+.enlace{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.enlace:hover{
+    background-color: red;
+    color: white;
+}
+@media(max-width: 500px){
+    body{
+        background-color: black;
+    }
+    
+    .navegacion{
+        display: none;
+    }
+    
+    .menu{
+        display: block;
+    }
+    }
+    
+    @media(min-width: 501px){
+        body{
+            background-color: rgb(191, 63, 174);
+        }
+    
+        .menu{
+            display: none;
+        }
+    }
+
+    body{
+        background-image:url(https://us.123rf.com/450wm/innalimanskaya/innalimanskaya1701/innalimanskaya170100057/70641106-san-valent%C3%ADn-amo-el-fondo-con-la-hoja-de-papel-blanca-y-los-corazones-de-papel-rojos-que-cuelgan-en-.jpg?ver=6);
+    }
+    

@@ -1,0 +1,58 @@
+body{
+background: center;
+  background-size: cover;
+  background-image:url(https://fondosmil.com/fondo/45780.jpg);
+}
+
+.si{
+    margin: auto;
+    max-width: 320px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 10px;
+    height: 40px;
+    align-items: center;
+}
+
+.inicio{
+  max-width: 170px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+  background-color: black;
+  margin: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.inicio:hover{
+color: aqua;
+background-color: darksalmon;
+}
+
+.beso{
+  max-width: 60%;
+  display: flex;
+  border: 4px solid black;
+  justify-content: center;
+  text-align: justify;
+}
+
+.texto{
+  text-align: start;
+  color: white;
+}
+
+.lista{
+  color: white;
+}
+
+.formulario{
+  float: right; 
+  text-align: center;
+  max-width: 40%;
+  color: white;
+}
